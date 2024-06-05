@@ -1,0 +1,1099 @@
+@media (max-width:480px){
+    #wrapper{
+        padding: 0px 50px;        
+    }
+    .logo{
+        width: fit-content;
+        text-align: center;
+    }
+    .right-logo{
+        display: none;
+        
+    }
+    #header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .knopochka{
+        display: block;
+        margin-top: 30px;
+    }
+    .banner{
+        width: fit-content;
+    }
+    .banner-txt-parent{
+        display: flex;
+        align-items: center;
+        font-size: 50px;
+        flex-direction: column;
+        width: fit-content;
+        margin: auto;
+    }
+    .banner-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-img{
+        width: fit-content;
+    }
+    .banner-img > img{
+        width: 270px;
+    }
+    .banner-txt-bottom{
+        width: 300px;
+        font-size: 18px !important;
+    }
+    #about{
+        display: flex;
+        flex-direction: column;
+    }
+    .border-box{
+        width: 350px;
+        margin: auto;
+    }
+    #about{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .about-right{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin-top: 50px;
+    }
+    .about-right > h1{
+        font-size: 40px;
+        text-align: center;
+        margin: 20px 0px;
+        width: 250px;
+    }
+    .about-right-txt{
+        font-size: 20px;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 330px;
+    }
+    .about-flex{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 200px;
+    }
+    .about-flex-txt{
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+
+    }
+    #classes{
+        width: 400px;
+    }
+    #classes > h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    .classes-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .classes-img{
+        margin: auto;
+        width: fit-content;
+    }
+    .classes-img > img{
+        width: 350px;
+        object-fit: cover;
+    }
+    .classes-txt{
+        width: 300px;
+        margin-top: 50px;
+    }
+    .classes-txt > h2{
+        font-size: 24px;
+    }
+    .classes-txt > p{
+        font-size: 18px;
+    }
+    #teachers{
+        width: 400px;
+    }
+    .teachers-flex-row{
+        width: fit-content;
+    }
+    .teachers-flex-row > h1{
+        font-size: 50px;
+    }
+    .teachers-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .obertka{
+        width: fit-content;
+    }
+    #price{
+        width: 400px;
+    }
+    #price > h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    .price-block{
+        display: flex;
+        justify-content: space-between;
+        height: fit-content;
+    }
+    .price-txt > h2{
+        font-size: 18px;
+    }
+    .price-txt > p{
+        font-size: 14px;
+    }
+    .price-dollars{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+    }
+    .price-dollars > span{
+        font-size: 24px;
+    }
+    .schedule-h{
+        width: 100%;
+        text-align: center;
+    }
+    .schedule-flex-1{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .schedule-flex{
+        width: fit-content;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .flex-box{
+        width: 105%;
+    }
+    #free{
+        width: 350px;
+    }
+    .free-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .free-title{
+        text-align: center;
+        margin:100px auto;
+
+    }
+    .free-title > h1{
+        font-size: 40px;
+    }
+    .free-title > h2{
+        font-size: 40px;
+        text-align: center;
+    }
+    .free-txt{
+        text-align: left;
+    }
+    #footer{
+        width: 400px;
+    }
+    .footer-obertka{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-elems > h1{
+        font-size: 40px;
+    }
+    .modal{
+        width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: none;
+    }
+    .modal-right{
+        width: 400px;
+    }
+}
+@media (min-width: 800px) and (max-width: 1300px) {
+    .banner-txt-parent {
+      font-size: 70px;
+      left: 40%;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 900px) {
+    #wrapper{
+        padding:40px 80px !important;
+    }
+    #header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .logo {
+      margin-top: 65px;
+    }
+    .right-logo {
+      margin-top: 40px;
+    }
+    .on{
+        width: 50px;
+    }
+    .right-elems > a {
+      font-size: 15px;
+    }
+    .banner-flex{
+        flex-direction: column;
+    }
+    .banner-txt-parent {
+      letter-spacing: 10px;
+      left: 100px;
+      width: fit-content;
+    }
+    .banner-txt-parent > div {
+      font-size: 9vw;
+    }
+    .banner-txt {
+      margin-left: 90px;
+    }
+    .banner-img{
+        width: fit-content;
+        margin: auto;
+    }
+    .banner-img > img {
+      width: 350px;
+    }
+    .banner-txt-bottom{
+        font-size: 25px;
+    }
+    #about{
+        flex-direction: column;
+    }
+    .about-right{
+        padding: 0px;
+        margin: 60px 0px;
+    }
+    .about-right > h1{
+        font-size: 50px;
+        margin: 0px;
+    }
+    .about-right-txt{
+        margin: 40px 0px;
+    }
+    #classes{
+        width: fit-content;
+    }
+    #classes > h1{
+        font-size: 50px;
+        text-align: left;
+    }
+    .classes-flex{
+        flex-direction: column;
+    }
+    .classes-txt{
+        margin: 0px;
+    }
+    .classes-txt > h2{
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    .classes-txt > p{
+        font-size: 18px;
+    }
+    .teachers-flex-row{
+        width: fit-content;
+    }
+    .mini-kruglyash-right{
+        left: 0px;
+    }
+    .teachers-flex-row > h1{
+        font-size: 50px;
+    }
+    .teachers-flex-1{
+        display: block;
+    }
+    .teachers-flex{
+        gap: 40px;
+    }
+    .teachers-img{
+        width: 300px;
+        height: 300px;
+    }
+    .teachers-txt{
+        width: 300px;
+    }
+    .teachers-txt > p{
+        font-size: 20px;
+    }
+    #price > h1{
+        font-size: 50px;
+    }
+    .price-block{
+        display: flex;
+        justify-content: space-between;
+        height: fit-content;
+    }
+    .price-txt > h2{
+        font-size: 18px;
+    }
+    .price-txt > p{
+        font-size: 14px;
+    }
+    .price-dollars{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .price-dollars > span{
+        font-size: 24px;
+    }
+    .schedule-flex-1{
+        flex-direction: column;
+    }
+    .schedule-flex{
+        width: 600px;
+        gap: 40px;
+    }
+    .free-flex{
+        flex-direction: column;
+    }
+    .free-title{
+        margin-top: 40px;
+    }
+    .free-title > h1{
+        font-size: 50px;
+    }
+    .free-title > h2{
+        font-size: 50px;
+    }
+    .footer-obertka{
+        flex-direction: column;
+    }
+    .flex-elems > h1{
+        font-size: 50px;
+    }
+    .modal{
+        width: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: none;
+    }
+}
+@media (min-width: 1024px) and (max-width:1280px){
+    #wrapper{
+        padding:40px 80px !important;
+    }
+    .banner-img > img{
+      width: 500px;
+      margin-left: 300px;
+      margin-bottom: 200px;
+  }
+       .banner-txt-parent {
+    width: 380px;
+   font-size: 80px;
+   margin-bottom: 250px;
+   
+}
+   .banner-img > img{
+    width: 500px;
+    margin-left: 300px;
+    margin-bottom: 200px;
+}
+.banner-txt-bottom {
+    width: 500px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    justify-content: space-between;
+    }
+    .border-box{
+        margin-top: 40px;
+        width: 700px;
+    }
+    .about-right{
+        padding: 0px;
+        margin: 60px -20px;
+    }
+    .about-right > h1{
+        font-size: 60px;
+    }
+    .about-right-txt{
+        float: right;
+        margin: 40px 0px;
+        margin-left: 100px;
+    }
+    .about-flex{
+        gap: 80px;
+    }
+    #classes{
+        width: fit-content;
+    }
+    #classes > h1{
+        font-size: 60px;
+    }
+    .classes-flex{
+        gap: 60px;
+    }
+    .classes-img{
+        width: fit-content;
+    }
+    .classes-img > img{
+        width: 400px;
+        height: 300px;
+    }
+    .classes-txt{
+        margin: 0px;
+        width: 400px;
+    }
+    .classes-txt > h2{
+        font-size: 30px;
+    }
+    .classes-txt > p{
+        font-size: 18px;
+    }
+    .teachers-flex-row > h1{
+        font-size: 50px;
+    }
+    .teachers-flex-1{
+        flex-direction: column;
+    }
+    .teachers-flex{
+        justify-content: space-between;
+    }
+    #price > h1{
+        font-size: 60px;
+    }
+    .price-dollars{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .modal{
+        width: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: none;
+    }
+    .schedule-flex-1{
+        flex-direction: column;
+        gap: 80px;
+    }
+    .schedule-flex{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .free-flex{
+        gap: 80px;
+    }
+    .free-title{
+        margin-top: 40px;
+    }
+    .free-title > h1{
+        font-size: 50px;
+    }
+    .free-title > h2{
+        font-size: 50px;
+    }
+    .flex-elems > h1{
+        font-size: 50px;
+        margin-top: 40px;
+    }
+}
+@media (min-width: 1281px) and (max-width:1600px){
+    #wrapper{
+        padding:40px 80px !important;
+    }
+    .banner-img > img{
+        width: 500px;
+    }
+    #about{
+        justify-content: space-between;
+    }
+    .border-box{
+        margin-top: 40px;
+        width: 700px;
+    }
+    .about-right{
+        padding: 0px;
+        margin: 60px ;
+    }
+    .about-right > h1{
+        font-size: 60px;
+        text-align: center;
+    }
+    .about-right-txt{
+        float: right;
+        margin: 40px 0px;
+        margin-left: 100px;
+    }
+    .about-flex{
+        gap: 80px;
+    }
+    #classes > h1{
+        font-size: 60px;
+    }
+    .classes-flex{
+        justify-content: space-between;
+        width: 100%;
+    }
+    .classes-img{
+        width: fit-content;
+    }
+    .classes-img > img{
+        width: 500px;
+        height: 400px;
+    }
+    .classes-txt{
+        margin: 0px;
+        width: 550px;
+    }
+    .classes-txt > h2{
+        font-size: 30px;
+    }
+    .classes-txt > p{
+        font-size: 18px;
+    }
+    .teachers-flex-row > h1{
+        font-size: 50px;
+    }
+    .teachers-flex{
+        justify-content: space-between;
+    }
+    #price > h1{
+        font-size: 60px;
+    }
+    .price-dollars{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .modal{
+        width: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: none;
+    }
+    .teachers-flex-row > h1{
+        font-size: 60px;
+    }
+    .teachers-flex-1{
+        justify-content: space-around;
+        gap: 0px;
+        width: 100%;
+    }
+    .teachers-flex{
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .teachers-img{
+        margin: auto;
+        width: 280px;
+        height: 280px;
+    }
+    .schedule-flex-1{
+        flex-direction: row;
+        gap: 40px;
+    }
+    .schedule-flex{
+        width: 100%;
+        gap: 40px;
+        justify-content: space-between;
+    }
+    .free-flex{
+        gap: 80px;
+    }
+    .free-title{
+        margin-top: 40px;
+    }
+    .free-title > h1{
+        font-size: 50px;
+    }
+    .free-title > h2{
+        font-size: 50px;
+    }
+    .flex-elems > h1{
+        font-size: 50px;
+        margin-top: 40px;
+    }
+}
+@media (min-width: 800px) and (max-width: 1300px) {
+    .banner-txt-parent {
+      font-size: 70px;
+      left: 40%;
+    }
+  }
+  @media (max-width: 800px) {
+    #header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .logo {
+      margin-top: 65px;
+    }
+    .right-logo {
+      margin-top: 40px;
+    }
+    .right-elems > a {
+      font-size: 15px;
+   
+    }
+    .banner-txt-parent > div {
+      font-size: 4vw;
+    }
+    .banner-txt {
+      margin-left: 90px;
+    }
+    .banner-img > img {
+      width: 350px;
+    }
+  }
+  @media (max-width: 480px) {
+    .logo {
+      width: fit-content;
+      text-align: center;
+    }
+    .right-logo {
+      display: none;
+    }
+    #header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .knopochka {
+      display: block;
+      margin-top: 30px;
+    }
+    .banner-txt-parent {
+      display: flex;
+      align-items: center;
+      font-size: 50px;
+      flex-direction: column;
+      width: fit-content;
+      margin: auto;
+    }
+    .banner-flex {
+      display: flex;
+      flex-direction: column;
+    }
+    .banner-img {
+      width: fit-content;
+    }
+    .banner-img > img {
+      width: 270px;
+    }
+    .banner-txt-bottom {
+      font-size: 20px;
+      width: 300px;
+    }
+    .banner {
+      width: fit-content;
+    }
+    #wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #about {
+      display: flex;
+      flex-direction: column;
+    }
+    .border-box {
+      width: 350px;
+      margin: auto;
+    }
+    #about {
+      display: flex;
+      flex-direction: column;
+      height: fit-content;
+    }
+    .about-right {
+      display: flex;
+      flex-direction: column;
+      width: 400px;
+      margin-top: 50px;
+    }
+    .about-right > h1 {
+      font-size: 40px;
+      text-align: center;
+      margin: 20px 0px;
+      width: 250px;
+    }
+    .about-right-txt {
+      font-size: 20px;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 330px;
+    }
+    .about-flex {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      width: 200px;
+    }
+    .about-flex-txt {
+      display: flex;
+      flex-direction: column;
+      width: 100px;
+    }
+    #classes {
+      width: 400px;
+    }
+    #classes > h1 {
+      font-size: 50px;
+      text-align: center;
+    }
+    .classes-flex {
+      display: flex;
+      flex-direction: column;
+    }
+    .classes-img {
+      margin: auto;
+      width: fit-content;
+    }
+    .classes-img > img {
+      width: 350px;
+      object-fit: cover;
+    }
+    .classes-txt {
+      width: 300px;
+      margin-top: 50px;
+    }
+    .classes-txt > h2 {
+      font-size: 24px;
+    }
+    .classes-txt > p {
+      font-size: 18px;
+    }
+    #teachers {
+      width: 400px;
+    }
+    .teachers-flex-row {
+      width: fit-content;
+      margin: auto;
+    }
+    .teachers-flex-row > h1 {
+      font-size: 50px;
+    }
+    .teachers-flex {
+      display: flex;
+      flex-direction: column;
+    }
+    .obertka {
+      width: fit-content;
+      margin: auto;
+    }
+    #price {
+      width: 400px;
+    }
+    #price > h1 {
+      font-size: 50px;
+      text-align: center;
+    }
+    .price-block {
+      display: flex;
+      justify-content: space-between;
+      height: fit-content;
+    }
+    .price-txt > h2 {
+      font-size: 18px;
+    }
+    .price-txt > p {
+      font-size: 14px;
+    }
+    .price-dollars {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80px;
+    }
+    .price-dollars > span {
+      font-size: 24px;
+    }
+    .schedule-h {
+      width: 100%;
+      text-align: center;
+    }
+    .schedule-flex {
+      width: fit-content;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .flex-box {
+      width: 105%;
+    }
+    #free {
+      width: 400px;
+    }
+    .free-flex {
+      display: flex;
+      flex-direction: column;
+    }
+    .free-title {
+      text-align: center;
+      margin: 100px auto;
+    }
+    .free-title > h1 {
+      font-size: 40px;
+    }
+    .free-title > h2 {
+      font-size: 40px;
+      text-align: center;
+    }
+    .free-txt {
+      text-align: left;
+    }
+    #footer {
+      width: 400px;
+    }
+    .footer-obertka {
+      width: fit-content;
+      display: flex;
+      flex-direction: column;
+    }
+    .flex-elems > h1 {
+      font-size: 40px;
+    }
+    .modal {
+      width: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: none;
+    }
+    .modal-right {
+      width: 400px;
+    }
+  }
+  @media (max-width: 320px) {
+    #header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    #wrapper {
+      padding: 0px 20px 0px 20px;
+    }
+    .knopochka {
+      display: block;
+      margin-top: 10px;
+    }
+    .right-elems {
+      display: none;
+    }
+    .logo {
+      font-size: 14px;
+    }
+    .banner-flex {
+      flex-direction: column;
+    }
+    .banner-inline {
+      font-size: 15px;
+      width: 110%;
+    }
+    .banner-txt-parent {
+      font-size: 40px;
+      margin-left: 20px;
+      width: 250px;
+    }
+    .banner-img > img {
+      width: 250px;
+    }
+    .banner-txt-bottom {
+      font-size: 15px;
+      margin-top: 30px;
+    }
+    #about {
+      display: flex;
+      flex-direction: column;
+      height: fit-content;
+    }
+    .about-right {
+      display: flex;
+      padding: 0px;
+      margin: 0px;
+      flex-direction: column;
+    }
+    .about-right > h1 {
+      font-size: 40px;
+      text-align: center;
+      margin: 20px 0px;
+      width: 270px;
+    }
+    .about-right-txt {
+      font-size: 15px;
+      height: fit-content;
+      margin: 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 270px;
+    }
+    .margin {
+      margin-top: 20px;
+    }
+    .about-flex {
+      flex-direction: column;
+      gap: 80px;
+      margin-top: 70px;
+      align-items: start;
+    }
+    .arrow {
+      width: 50px;
+      margin-top: 10px;
+    }
+    .border-box {
+      border: none;
+    }
+    .border-box > img {
+      width: 280px;
+    }
+  
+    .about-flex-txt {
+      margin: 0px;
+    }
+    #classes {
+      height: fit-content;
+    }
+    #classes > h1 {
+      font-size: 40px;
+      text-align: center;
+      margin: 40px 0px;
+      width: 270px;
+    }
+    .classes-flex {
+      flex-direction: column;
+      gap: 40px;
+    }
+    .classes-img {
+      width: inherit;
+      height: 380px;
+    }
+    .classes-img > img {
+      object-fit: cover;
+    }
+    .classes-txt {
+      margin: auto;
+      width: 270px;
+    }
+    .classes-txt > h2 {
+      font-size: 18px;
+    }
+    .classes-txt > p {
+      font-size: 14px;
+    }
+    .teachers-flex-row > h1 {
+      font-size: 40px;
+      margin: auto;
+    }
+    .teachers-flex {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .obertka {
+      margin-left: 10px;
+    }
+    .teachers-img {
+      width: 250px;
+      height: 250px;
+    }
+    .teachers-txt {
+      width: fit-content;
+      margin: 5px auto;
+    }
+    .teachers-txt > h2 {
+      font-size: 24px;
+      text-align: center;
+      margin: auto;
+    }
+    .teachers-txt > p {
+      font-size: 16px;
+    }
+    #price > h1 {
+      font-size: 40px;
+      text-align: center;
+    }
+    .price-block {
+      display: flex;
+    }
+    .price-txt {
+      width: 90%;
+    }
+    .price-dollars > span {
+      font-size: 20px;
+    }
+    .price-txt > h2 {
+      font-size: 12px;
+    }
+    .price-txt > p {
+      font-size: 10px;
+    }
+    .schedule-h > h1 {
+      font-size: 26px;
+    }
+    .schedule-flex {
+      flex-direction: column;
+    }
+    .flex-box {
+      width: 100%;
+    }
+    .free-flex {
+      flex-direction: column;
+      width: 280px;
+    }
+    #rotate {
+      display: none;
+    }
+    .border-box {
+      width: inherit;
+    }
+    .free-title {
+      width: inherit;
+    }
+    .free-title > h1 {
+      font-size: 40px;
+      margin-top: 15px;
+    }
+    .free-title > h2 {
+      font-size: 40px;
+      margin-top: 15px;
+    }
+    .free-txt {
+      margin-top: 30px;
+      font-size: 22px;
+    }
+    .free-inline {
+      font-size: 22px;
+      gap: 10px;
+    }
+    .footer-obertka {
+      flex-direction: column;
+    }
+    .flex-elems {
+      width: inherit;
+    }
+    .flex-elems > h1 {
+      font-size: 40px;
+      text-align: center;
+    }
+  }
+  
+
