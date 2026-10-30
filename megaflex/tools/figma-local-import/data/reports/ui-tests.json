@@ -1,0 +1,9 @@
+{
+  "scope": "Local plugin HTML UI, not Figma",
+  "passed": [
+    "Chunked JSON upload",
+    "Smoke confirmation gate",
+    "Full import command",
+    "Local install manifest generation (test-only ID)"
+  ]
+}

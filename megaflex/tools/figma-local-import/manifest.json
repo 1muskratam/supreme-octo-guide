@@ -1,0 +1,16 @@
+{
+  "name": "MEGAFLEX — Local editable import",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html",
+  "editorType": [
+    "figma"
+  ],
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": [
+      "none"
+    ]
+  },
+  "id": "1697198624057751377"
+}

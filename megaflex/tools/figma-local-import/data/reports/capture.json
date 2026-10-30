@@ -1,0 +1,535 @@
+{
+  "fingerprint": "0a7eeab5d79dafa08d9a62f1f792bd4195ea98c5df5ad4c2b1ef7338f450f4b5",
+  "sourceUnchanged": true,
+  "sourceFiles": [
+    {
+      "file": "app.js",
+      "bytes": 7026,
+      "sha256": "a845d4b1a752db68cf2f86a9f07d2d3e7cb5162b1abf66ace442016ff6a800cb"
+    },
+    {
+      "file": "assets/0f2c3.svg",
+      "bytes": 579,
+      "sha256": "c237d842135de1a5d694f98d67c0242c758656f84baf0f18b7834b9a61568620"
+    },
+    {
+      "file": "assets/0fe95.svg",
+      "bytes": 551,
+      "sha256": "9965c942bf02315cf5ba39456741b5ed3edb4438272722ee0c2d2e1a38f57572"
+    },
+    {
+      "file": "assets/1209a.png",
+      "bytes": 42023,
+      "sha256": "bff6fea3ac0a4dbd4d53b2276c53bed672b83cdc3ab5f964f3d1054c9856d18f"
+    },
+    {
+      "file": "assets/1bba5.svg",
+      "bytes": 744,
+      "sha256": "100fe5c7acb6968ef16e1be1911e1c782abc6c96d51a2e8271af1d6b5a73bae2"
+    },
+    {
+      "file": "assets/27b25.png",
+      "bytes": 41122,
+      "sha256": "5d9075b557d84d794d4e86380579602498b419ce007837afa67e67d64d6e2196"
+    },
+    {
+      "file": "assets/2aef2.svg",
+      "bytes": 358,
+      "sha256": "b10ac3e6def08e9f04d1c2c5496676ede7d849010ef70c66246cc2c171482247"
+    },
+    {
+      "file": "assets/2c6e0.svg",
+      "bytes": 745,
+      "sha256": "797653be455c33d3263291c259e5bdd6cc7fa102e0097c52b7259d1b164529fe"
+    },
+    {
+      "file": "assets/308e6.svg",
+      "bytes": 577,
+      "sha256": "77bed2ae62cafaa3e66e53aee5da9aaa909b56bcb9bb01d29f153cf9079904e0"
+    },
+    {
+      "file": "assets/32a33.png",
+      "bytes": 41143,
+      "sha256": "512270b8802d5eff605aa60de03115d43fedf3fec487ec6d70a27691ceb7cf0a"
+    },
+    {
+      "file": "assets/36363.png",
+      "bytes": 44329,
+      "sha256": "c58384d2aeb4087065f1aa77bee64f103a838e0527608431f6b4db913a69eca4"
+    },
+    {
+      "file": "assets/39ab3.svg",
+      "bytes": 556,
+      "sha256": "bc7eb33df8be8c47906940cf751f91de7fe4db7bbd2d651d325799e7d733df02"
+    },
+    {
+      "file": "assets/3b271.svg",
+      "bytes": 738,
+      "sha256": "e456fa7dd3010c6670406c9f31c88d8c864ff8c1add6263d3a3a81fcd1082efd"
+    },
+    {
+      "file": "assets/50f02.png",
+      "bytes": 2245562,
+      "sha256": "79f4436eb56ae8533602879c65851c1084a868e81a98c2addfde471f53c14268"
+    },
+    {
+      "file": "assets/51346.svg",
+      "bytes": 852,
+      "sha256": "611fa63b6b31e8a478bdf10fd65895c76ff21d28b626a1ca8c3a06557a0136f2"
+    },
+    {
+      "file": "assets/627d3.png",
+      "bytes": 2172077,
+      "sha256": "5c722f9403c14f97d90e8e2030a0eecf149d53ea7f9fb8fefda21803de18525a"
+    },
+    {
+      "file": "assets/715f5.svg",
+      "bytes": 662,
+      "sha256": "2d30920634d212b610df81829b4efc4de533b4996f953e138bd52a67bb3d52f2"
+    },
+    {
+      "file": "assets/71684.png",
+      "bytes": 2343155,
+      "sha256": "fdb22179f429d64fcffba8815171c5b9e0cc9e9f70e193b922a7bfe0cf0a07e4"
+    },
+    {
+      "file": "assets/7379c.svg",
+      "bytes": 1067,
+      "sha256": "ec2ebcdd86aa9dddfe5a4859f08b24300bc1a82c32003c26e5d5f47b002c314f"
+    },
+    {
+      "file": "assets/74640.png",
+      "bytes": 37007,
+      "sha256": "1c2c600d6a27ab7f156b41ca2e4c11c16a3a4ba1b02738c0e7bbf36e5bd772e3"
+    },
+    {
+      "file": "assets/7ee39.svg",
+      "bytes": 394,
+      "sha256": "8d84556654755802aba737a2dfc0fdd788b10da9efb8eb783e28f3e582e7cbe0"
+    },
+    {
+      "file": "assets/8b918.svg",
+      "bytes": 1067,
+      "sha256": "0adf04bc1154aec48550370be007dc6d610b1b648419178e1d28f60de15153f9"
+    },
+    {
+      "file": "assets/96be3.svg",
+      "bytes": 932,
+      "sha256": "7388fe3f2e4edaa7f565a349adf8966fb95b2c45e8cdec0f4d854a4243dce878"
+    },
+    {
+      "file": "assets/9c548.svg",
+      "bytes": 355,
+      "sha256": "9146c2d176a028e890e9589938bde94c87d35b54303900575862caa8d124d41e"
+    },
+    {
+      "file": "assets/9d038.svg",
+      "bytes": 1081,
+      "sha256": "51cbc446a74a9cd7654b1cf7655978064ab64fdb83446dd35c14518882f4a868"
+    },
+    {
+      "file": "assets/a5509.png",
+      "bytes": 2181895,
+      "sha256": "52017a9ce3302b18b5c760a2ca58d0e06f95adac02dbc11b623d6ce9b7baabb1"
+    },
+    {
+      "file": "assets/a5a6a.png",
+      "bytes": 2178785,
+      "sha256": "17e53c6241fe968685fad07dc4a2c59aa16d9fae3347b8cea8fffc08e456d290"
+    },
+    {
+      "file": "assets/ad95c.png",
+      "bytes": 41520,
+      "sha256": "e02c2e0c10fa08cb145cd4fe2bb00eb9339979f784d422879f5df1d568f977b4"
+    },
+    {
+      "file": "assets/b497c.svg",
+      "bytes": 406,
+      "sha256": "9f9a293dca651d4a8cf7bdc08afc6ff54336b760112a49b0619384cf4a7a7657"
+    },
+    {
+      "file": "assets/beedd.svg",
+      "bytes": 333,
+      "sha256": "fef5ca7ddd6f2d18fe6c278c678298fcfc3d8373136c51fba8fac3a4e709b04d"
+    },
+    {
+      "file": "assets/c0f64.svg",
+      "bytes": 521,
+      "sha256": "7fc75304fe941d8b7440725b4caee2a4d6c60b3fc4153ed1ed9923fc6e7dfdac"
+    },
+    {
+      "file": "assets/c91de.svg",
+      "bytes": 550,
+      "sha256": "acfe04a2c6b106001169b9f02241c27d9a299d25f4b559d534b4103acded0ad8"
+    },
+    {
+      "file": "assets/ca1e8.svg",
+      "bytes": 360,
+      "sha256": "6bf229294461393c7ce5eefe027d88a825ad1fdd6ff7758570cab1639c81fdb4"
+    },
+    {
+      "file": "assets/cbd71.svg",
+      "bytes": 1252,
+      "sha256": "65af37603c20311981b67a5fcd7501b50e550c5b429ea9f1c2fb743f9daac756"
+    },
+    {
+      "file": "assets/d10d5.png",
+      "bytes": 12388,
+      "sha256": "9abd22a460e055189d5bc376e1fefe1d37d60541d9a745163d4d9748c0eb807b"
+    },
+    {
+      "file": "assets/d80a9.svg",
+      "bytes": 741,
+      "sha256": "03c029951036898e82c5171c6d352a4b573c4b0f36813178657839ad3e3aa398"
+    },
+    {
+      "file": "assets/d9535.png",
+      "bytes": 2215990,
+      "sha256": "d19668189a9e83850b70bf8f223e7eaff5a8e8dc366f0f6b14f4bb2cc08154a6"
+    },
+    {
+      "file": "assets/e5ebb.png",
+      "bytes": 12535,
+      "sha256": "904b58cb03139dbb75b826c27fc971298af6c63c489377abda7353134fef6f37"
+    },
+    {
+      "file": "assets/f07f8.png",
+      "bytes": 44280,
+      "sha256": "b143e7a97768f1f5c2051f47cafd4e2c23948a843ab2c8c329884f99821fe586"
+    },
+    {
+      "file": "assets/f09d7.svg",
+      "bytes": 360,
+      "sha256": "f7a2d4b1d911ced6568413787d7ef298f3487c7b518af664bebf6a906f01590f"
+    },
+    {
+      "file": "assets/faa56.png",
+      "bytes": 44455,
+      "sha256": "90341d45a5a635b174f803e944a08c8ccd364730dd34ce5e280c035ddd05fa38"
+    },
+    {
+      "file": "assets/fbeb4.svg",
+      "bytes": 541,
+      "sha256": "84372fb5838de70470cea9198126dede9bf4edce26dc836b26a02d98a702371f"
+    },
+    {
+      "file": "assets/fc866.svg",
+      "bytes": 341,
+      "sha256": "2a9997ddbcc0b2ba8c717e0fb4b071bc7b61cf109cc850f7b23cd97cee24463d"
+    },
+    {
+      "file": "assets/inter-0.ttf",
+      "bytes": 324820,
+      "sha256": "1b08e7fc267a5c7e1d614100f604b83e7e8a0be241f0f288faa2b3ac93a683ba"
+    },
+    {
+      "file": "assets/inter-1.ttf",
+      "bytes": 325304,
+      "sha256": "8c883f63b2c4157d997319f2c8bc6995ed4357ef371940d31ca159004a4aae63"
+    },
+    {
+      "file": "assets/inter-2.ttf",
+      "bytes": 326048,
+      "sha256": "e7a1aaf7eda9f2fad4131725fa556265ec75ca7b2d756260173a040363e8d4f7"
+    },
+    {
+      "file": "assets/inter-3.ttf",
+      "bytes": 326468,
+      "sha256": "b37284b5701b6b168dfc770aa1a4ac492106422fd3ba76bc7641e37434e8019c"
+    },
+    {
+      "file": "assets/Inter-OFL.txt",
+      "bytes": 4380,
+      "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+    },
+    {
+      "file": "fonts.css",
+      "bytes": 616,
+      "sha256": "17b8b7937b77e8da0c68d402b1e836478dcdec1ba8810118438147103527238f"
+    },
+    {
+      "file": "index.html",
+      "bytes": 19395,
+      "sha256": "31041adf77d86c6dd8881d9ef6852df6b7b757eb0322cc17bf46f5c465bf6a5e"
+    },
+    {
+      "file": "styles.css",
+      "bytes": 15666,
+      "sha256": "d4ab955a540f442b51f699e8eef263c2642a8afea914b18d9c19ee45f9f20563"
+    }
+  ],
+  "metrics": [
+    {
+      "key": "home-desktop",
+      "width": 1440,
+      "height": 5175,
+      "total": 266,
+      "text": 92,
+      "images": 17,
+      "svg": 40
+    },
+    {
+      "key": "desktop-dialog-1",
+      "width": 600,
+      "height": 596,
+      "total": 11,
+      "text": 5,
+      "images": 1,
+      "svg": 1
+    },
+    {
+      "key": "desktop-dialog-2",
+      "width": 600,
+      "height": 572,
+      "total": 11,
+      "text": 5,
+      "images": 1,
+      "svg": 1
+    },
+    {
+      "key": "desktop-dialog-3",
+      "width": 600,
+      "height": 572,
+      "total": 11,
+      "text": 5,
+      "images": 1,
+      "svg": 1
+    },
+    {
+      "key": "desktop-dialog-4",
+      "width": 600,
+      "height": 572,
+      "total": 11,
+      "text": 5,
+      "images": 1,
+      "svg": 1
+    },
+    {
+      "key": "desktop-dialog-5",
+      "width": 600,
+      "height": 536,
+      "total": 11,
+      "text": 5,
+      "images": 1,
+      "svg": 1
+    },
+    {
+      "key": "desktop-dialog-6",
+      "width": 600,
+      "height": 560,
+      "total": 11,
+      "text": 5,
+      "images": 1,
+      "svg": 1
+    },
+    {
+      "key": "desktop-dialog-7",
+      "width": 600,
+      "height": 536,
+      "total": 11,
+      "text": 5,
+      "images": 1,
+      "svg": 1
+    },
+    {
+      "key": "desktop-dialog-8",
+      "width": 600,
+      "height": 560,
+      "total": 11,
+      "text": 5,
+      "images": 1,
+      "svg": 1
+    },
+    {
+      "key": "desktop-dialog-9",
+      "width": 600,
+      "height": 478,
+      "total": 10,
+      "text": 5,
+      "images": 0,
+      "svg": 1
+    },
+    {
+      "key": "desktop-dialog-10",
+      "width": 600,
+      "height": 430,
+      "total": 7,
+      "text": 4,
+      "images": 0,
+      "svg": 0
+    },
+    {
+      "key": "desktop-dialog-11",
+      "width": 600,
+      "height": 286,
+      "total": 10,
+      "text": 5,
+      "images": 0,
+      "svg": 1
+    },
+    {
+      "key": "desktop-dialog-12",
+      "width": 600,
+      "height": 286,
+      "total": 10,
+      "text": 5,
+      "images": 0,
+      "svg": 1
+    },
+    {
+      "key": "home-laptop",
+      "width": 1200,
+      "height": 5282,
+      "total": 264,
+      "text": 92,
+      "images": 17,
+      "svg": 39
+    },
+    {
+      "key": "home-tablet",
+      "width": 768,
+      "height": 6994,
+      "total": 263,
+      "text": 88,
+      "images": 17,
+      "svg": 39
+    },
+    {
+      "key": "home-mobile",
+      "width": 390,
+      "height": 9328.765625,
+      "total": 268,
+      "text": 87,
+      "images": 17,
+      "svg": 38
+    },
+    {
+      "key": "mobile-menu",
+      "width": 390,
+      "height": 9433.765625,
+      "total": 273,
+      "text": 91,
+      "images": 17,
+      "svg": 38
+    },
+    {
+      "key": "mobile-dialog-1",
+      "width": 352,
+      "height": 596,
+      "total": 11,
+      "text": 5,
+      "images": 1,
+      "svg": 1
+    },
+    {
+      "key": "mobile-dialog-2",
+      "width": 352,
+      "height": 542,
+      "total": 11,
+      "text": 5,
+      "images": 1,
+      "svg": 1
+    },
+    {
+      "key": "mobile-dialog-3",
+      "width": 352,
+      "height": 566,
+      "total": 11,
+      "text": 5,
+      "images": 1,
+      "svg": 1
+    },
+    {
+      "key": "mobile-dialog-4",
+      "width": 352,
+      "height": 602,
+      "total": 11,
+      "text": 5,
+      "images": 1,
+      "svg": 1
+    },
+    {
+      "key": "mobile-dialog-5",
+      "width": 352,
+      "height": 512,
+      "total": 11,
+      "text": 5,
+      "images": 1,
+      "svg": 1
+    },
+    {
+      "key": "mobile-dialog-6",
+      "width": 352,
+      "height": 566,
+      "total": 11,
+      "text": 5,
+      "images": 1,
+      "svg": 1
+    },
+    {
+      "key": "mobile-dialog-7",
+      "width": 352,
+      "height": 542,
+      "total": 11,
+      "text": 5,
+      "images": 1,
+      "svg": 1
+    },
+    {
+      "key": "mobile-dialog-8",
+      "width": 352,
+      "height": 542,
+      "total": 11,
+      "text": 5,
+      "images": 1,
+      "svg": 1
+    },
+    {
+      "key": "mobile-dialog-9",
+      "width": 352,
+      "height": 630,
+      "total": 10,
+      "text": 5,
+      "images": 0,
+      "svg": 1
+    },
+    {
+      "key": "mobile-dialog-10",
+      "width": 352,
+      "height": 528,
+      "total": 7,
+      "text": 4,
+      "images": 0,
+      "svg": 0
+    },
+    {
+      "key": "mobile-dialog-11",
+      "width": 352,
+      "height": 312,
+      "total": 10,
+      "text": 5,
+      "images": 0,
+      "svg": 1
+    },
+    {
+      "key": "mobile-dialog-12",
+      "width": 352,
+      "height": 312,
+      "total": 10,
+      "text": 5,
+      "images": 0,
+      "svg": 1
+    },
+    {
+      "key": "home-mobile-compact",
+      "width": 320,
+      "height": 11000.765625,
+      "total": 268,
+      "text": 87,
+      "images": 17,
+      "svg": 38
+    }
+  ],
+  "warnings": [],
+  "figmaRun": false
+}

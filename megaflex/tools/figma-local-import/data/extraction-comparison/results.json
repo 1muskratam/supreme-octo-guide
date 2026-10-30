@@ -1,0 +1,77 @@
+{
+  "scope": "Intermediate JSON reconstructed in browser; NOT Figma",
+  "comparedAt": "2026-10-28T03:01:50.049Z",
+  "note": "Pixel differences require manual review; antialiasing differs between browser and Figma.",
+  "results": [
+    {
+      "frame": "home-desktop",
+      "reference": [
+        1440,
+        5175
+      ],
+      "actual": [
+        1440,
+        5175
+      ],
+      "sameSize": true,
+      "changedPercent": 0.06819645732689211,
+      "meanMaxChannelDifference": 0.06651261406333871
+    },
+    {
+      "frame": "home-laptop",
+      "reference": [
+        1200,
+        5282
+      ],
+      "actual": [
+        1200,
+        5282
+      ],
+      "sameSize": true,
+      "changedPercent": 0.07954688880474568,
+      "meanMaxChannelDifference": 0.07837182885270731
+    },
+    {
+      "frame": "home-tablet",
+      "reference": [
+        768,
+        6994
+      ],
+      "actual": [
+        768,
+        6994
+      ],
+      "sameSize": true,
+      "changedPercent": 0.09286233438185111,
+      "meanMaxChannelDifference": 0.09332906628300448
+    },
+    {
+      "frame": "home-mobile",
+      "reference": [
+        390,
+        9329
+      ],
+      "actual": [
+        390,
+        9329
+      ],
+      "sameSize": true,
+      "changedPercent": 0.13618960451418377,
+      "meanMaxChannelDifference": 0.13162154956559502
+    },
+    {
+      "frame": "home-mobile-compact",
+      "reference": [
+        320,
+        11001
+      ],
+      "actual": [
+        320,
+        11001
+      ],
+      "sameSize": true,
+      "changedPercent": 0.14075424961367147,
+      "meanMaxChannelDifference": 0.13604160985364966
+    }
+  ]
+}

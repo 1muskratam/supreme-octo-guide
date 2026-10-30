@@ -1,0 +1,77 @@
+{
+  "scope": "Figma PNG exports versus website",
+  "comparedAt": "2026-10-29T05:23:27.765Z",
+  "note": "Pixel differences require manual review; antialiasing differs between browser and Figma.",
+  "results": [
+    {
+      "frame": "home-desktop",
+      "reference": [
+        1440,
+        5175
+      ],
+      "actual": [
+        1440,
+        5175
+      ],
+      "sameSize": true,
+      "changedPercent": 2.8727724100912506,
+      "meanMaxChannelDifference": 3.339533145464305
+    },
+    {
+      "frame": "home-laptop",
+      "reference": [
+        1200,
+        5282
+      ],
+      "actual": [
+        1200,
+        5282
+      ],
+      "sameSize": true,
+      "changedPercent": 3.1245109175817243,
+      "meanMaxChannelDifference": 3.4718706613656445
+    },
+    {
+      "frame": "home-tablet",
+      "reference": [
+        768,
+        6994
+      ],
+      "actual": [
+        768,
+        6994
+      ],
+      "sameSize": true,
+      "changedPercent": 3.3322274747402534,
+      "meanMaxChannelDifference": 3.8242533778953387
+    },
+    {
+      "frame": "home-mobile",
+      "reference": [
+        390,
+        9329
+      ],
+      "actual": [
+        406,
+        9329
+      ],
+      "sameSize": false,
+      "changedPercent": 20.171407872163027,
+      "meanMaxChannelDifference": 28.86168085428826
+    },
+    {
+      "frame": "home-mobile-compact",
+      "reference": [
+        320,
+        11001
+      ],
+      "actual": [
+        344,
+        11001
+      ],
+      "sameSize": false,
+      "changedPercent": 26.97947121086244,
+      "meanMaxChannelDifference": 40.942669059683794
+    }
+  ]
+}

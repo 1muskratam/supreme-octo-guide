@@ -1,0 +1,34 @@
+<!doctype html><html lang="ru"><meta charset="utf-8"><style>
+*{box-sizing:border-box}body{font:13px/1.5 Inter,Arial,sans-serif;margin:20px;background:var(--figma-color-bg,#fff);color:var(--figma-color-text,#1d2760)}h1{font-size:20px;margin:0 0 8px}p{margin:8px 0 14px}button{border:0;border-radius:8px;padding:10px 14px;background:#0b2475;color:white;cursor:pointer;margin:4px 4px 4px 0}button:disabled{opacity:.4;cursor:default}select,input[type=file]{width:100%;margin:8px 0;padding:8px}label{display:block;margin:10px 0}small{display:block;color:var(--figma-color-text-secondary,#68738a)}#log{white-space:pre-wrap;max-height:155px;overflow:auto;background:var(--figma-color-bg-secondary,#f5f7fb);border-radius:8px;padding:10px;font-size:12px}#font-panel{border:1px solid #d9b360;padding:10px;border-radius:8px}[hidden]{display:none!important}progress{width:100%}.downloads a{display:block;margin:6px 0;color:#1d27ff}
+</style><h1>MEGAFLEX → Figma</h1><p>Локальный импорт редактируемых слоёв. Плагин не использует сеть.</p>
+<label>1. Выберите подготовленный <b>data/design.json</b><input type="file" id="file" accept=".json,application/json"></label>
+<div id="font-panel" hidden><b>Некоторые шрифты недоступны</b><p id="missing"></p><small>Установите исходные TTF из dist/assets и перезапустите Figma либо явно выберите замену.</small><select id="font"></select><label><input id="approve-font" type="checkbox"> Разрешаю указанную замену шрифта</label></div>
+<label>Режим <select id="mode"><option value="update">Обновить импортированные фреймы</option><option value="version">Создать новую версию</option></select></label><small>Обновление заменяет выбранные группы импорта вместе с изменениями внутри них. Остальные слои сохраняются. Для сохранения правок выберите новую версию.</small>
+<button id="smoke" disabled>2. Тест элементов</button>
+<label><input type="checkbox" id="confirmed" disabled> Я проверила тест: текст редактируется, фото заменяется, шрифт и кнопка отображаются правильно.</label>
+<label><input type="checkbox" id="optional"> Добавить существующие диалоги и открытое меню</label>
+<button id="full" disabled>3. Импортировать сайт</button><button id="cancel" disabled>Отменить</button>
+<button id="export" disabled>4. Экспорт PNG и отчёта</button>
+<progress id="progress" hidden></progress><pre id="log" aria-live="polite">Ожидаю design.json.</pre><div class="downloads" id="downloads"></div>
+<script>
+const el=id=>document.getElementById(id),send=msg=>parent.postMessage({pluginMessage:msg},'*');
+let text='',offset=0,uploading=false,ready=false,working=false,hasSmoke=false,lastImport=null;let urls=[];
+const log=message=>{el('log').textContent=message};
+function state(){el('smoke').disabled=!ready||working;el('full').disabled=!ready||working||!hasSmoke||!el('confirmed').checked;el('confirmed').disabled=!hasSmoke||working;el('cancel').disabled=!working;el('file').disabled=working;el('progress').hidden=!working;}
+el('confirmed').onchange=state;
+el('file').onchange=async()=>{const file=el('file').files[0];if(!file)return;if(file.size>100*1024*1024){log('Файл превышает 100 МБ');return;}try{text=await file.text();JSON.parse(text);offset=0;uploading=true;ready=false;working=true;hasSmoke=false;el('confirmed').checked=false;el('export').disabled=true;state();send({type:'begin-upload',length:text.length});}catch(e){working=false;state();log('Ошибка JSON: '+e.message);}};
+function start(smoke){lastImport={type:'import',smoke,mode:el('mode').value,optional:el('optional').checked};if(!el('font-panel').hidden){if(!el('approve-font').checked){log('Выберите и явно подтвердите замену шрифта либо установите Inter.');return;}lastImport.approvedFont=JSON.parse(el('font').value);}working=true;el('export').disabled=true;state();send(lastImport);}
+el('smoke').onclick=()=>start(true);el('full').onclick=()=>start(false);el('cancel').onclick=()=>send({type:'cancel'});
+el('export').onclick=()=>{working=true;state();send({type:'export'});};
+onmessage=event=>{const m=event.data.pluginMessage;if(!m)return;
+ if(m.type==='chunk-ready'&&uploading){if(offset<text.length){const data=text.slice(offset,offset+262144);offset+=data.length;send({type:'chunk',data});log('Загрузка пакета: '+Math.round(offset/text.length*100)+'%');}else{uploading=false;text='';send({type:'finish-upload'});}}
+ if(m.type==='ready'){working=false;ready=true;log('Пакет готов. Основных макетов: '+m.frames.filter(f=>!f.optional).length+'; дополнительных состояний: '+m.frames.filter(f=>f.optional).length+'.\nШрифты: '+m.fonts.map(f=>f.family+' '+f.style).join(', '));state();}
+ if(m.type==='progress')log(m.page+'\nСоздано элементов: '+m.count);
+ if(m.type==='fonts'){el('font-panel').hidden=false;el('missing').textContent=m.missing.join(', ');el('font').replaceChildren(...m.available.map(f=>{const o=document.createElement('option');o.value=JSON.stringify(f);o.textContent=f.family+' / '+f.style;return o;}));}
+ if(m.type==='font-wait'){working=false;state();log('Импорт приостановлен до решения по шрифтам. Макеты не изменены.');}
+ if(m.type==='done'){working=false;if(m.smoke)hasSmoke=true;state();el('export').disabled=false;log((m.smoke?'Тест создан. Проверьте его вручную, затем отметьте подтверждение.':'Импорт завершён. Проверьте макеты и экспортируйте PNG для сравнения.')+'\nЭлементов: '+m.count+'; Auto Layout: '+m.report.autoLayout+'; компонентов: '+m.report.components+'\nПредупреждения: '+m.report.warnings.join('\n'));}
+ if(m.type==='error'){working=false;uploading=false;state();log(m.message);}
+ if(m.type==='download'){const blob=new Blob([m.text??new Uint8Array(m.bytes)],{type:m.mime}),url=URL.createObjectURL(blob);urls.push(url);const a=document.createElement('a');a.href=url;a.download=m.name;a.textContent='Сохранить '+m.name;el('downloads').appendChild(a);}
+ if(m.type==='exported'){working=false;state();el('export').disabled=false;log('PNG и отчёт готовы. Сохраните файлы по ссылкам ниже.');}
+};
+</script></html>

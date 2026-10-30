@@ -1,0 +1,25 @@
+{
+  "scope": "Browser reconstruction of intermediate JSON only, NOT a Figma test",
+  "results": [
+    {
+      "frame": "home-desktop",
+      "rendered": true
+    },
+    {
+      "frame": "home-laptop",
+      "rendered": true
+    },
+    {
+      "frame": "home-tablet",
+      "rendered": true
+    },
+    {
+      "frame": "home-mobile",
+      "rendered": true
+    },
+    {
+      "frame": "home-mobile-compact",
+      "rendered": true
+    }
+  ]
+}

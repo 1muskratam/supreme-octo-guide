@@ -1,0 +1,21 @@
+{
+  "name": "megaflex-figma-local-import",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.ts",
+    "prepare-data": "node scripts/prepare.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/*.test.ts",
+    "set-id": "node scripts/set-id.ts",
+    "compare": "node scripts/compare.ts"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "latest",
+    "@types/node": "^24.0.0",
+    "esbuild": "^0.25.0",
+    "playwright": "^1.56.0",
+    "typescript": "^5.9.0"
+  }
+}

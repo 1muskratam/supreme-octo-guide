@@ -1,0 +1,58 @@
+{
+  "fileKey": "2XavqY0fgbtiIgZ30Zo5YH",
+  "url": "https://www.figma.com/design/2XavqY0fgbtiIgZ30Zo5YH",
+  "scope": "desktop landing page and five component families",
+  "pages": {
+    "desktop": "0:1",
+    "components": "2:2",
+    "foundations": "2:3"
+  },
+  "main": "2:53",
+  "sections": {
+    "Header": "2:54",
+    "Hero": "2:55",
+    "Products": "2:56",
+    "About": "2:57",
+    "Benefits": "2:58",
+    "Production": "2:59",
+    "Contacts": "2:60",
+    "Footer": "2:61"
+  },
+  "completed": [
+    "discovery",
+    "foundations",
+    "assets",
+    "components",
+    "composition",
+    "main visual QA",
+    "component visual QA",
+    "foundations visual QA"
+  ],
+  "pending": [],
+  "components": {
+    "product": "3:32",
+    "checkbox": "3:67",
+    "textarea": "3:58",
+    "field": "3:54",
+    "buttonPrimary": "3:6",
+    "inverse": "3:65",
+    "buttonInverse": "3:22",
+    "buttonSecondary": "3:14",
+    "logo": "3:63",
+    "benefit": "3:39",
+    "stage": "3:44"
+  },
+  "final": {
+    "height": 5171,
+    "unstyledTextCount": 0,
+    "instances": 36,
+    "overflowCount": 0,
+    "autoLayoutContainers": 133,
+    "textNodes": 101,
+    "lastScreenshotLimitation": "Starter MCP limit prevented only a final isolated inverse-logo screenshot; full layout was visually checked before the non-geometric style cleanup.",
+    "paintStyles": 9,
+    "sections": 8,
+    "width": 1440,
+    "textStyles": 10
+  }
+}
